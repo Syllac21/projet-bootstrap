@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+body,html{
+    padding: 0;
+    margin:0;
+}
+body{
+    font-family: 'Lobster', cursive;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.separator{
+    height: 3px;
+    width: 5%;
+    border: none;
+    box-shadow: none;
+    background-color: #0FC2C0;
+    margin: auto;
+    
+}
+
+/*header*/
+ .header{
+    background-color: #0FC2C0;
+    height: 70px; 
+    line-height:70px;
+ }
+ .logo{
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: large;
+    float: left;
+ }
+
+ .menu{
+    float: right;
+ }
+
+ .menu a{
+    color:#ffffff;
+    margin-right: 20px;
+ }
+ 
+ .menu a:hover{
+    color: #008F8C;
+ }
+/*banniere*/
+.banner{
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban{
+    width: 100%;
+    max-width:100%;
+    position: relative;
+}
+
+.ban img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.inner-banner{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-banner h1{
+    color: #ffffff;
+    text-shadow: 1px 1px 20px black;
+}
+
+.inner-banner .btn-custom{
+    background-color: #0FC2C0;
+    color: white;
+}
+
+.inner-banner .btn-custom:hover{
+    background-color: #008F8C;
+}
+/* about*/
+#about{
+    text-align: center;
+    padding-top: 5%;
+}
+.about article h2{
+    text-align: center;
+}
+
+.about article{
+    margin-top: 10%;
+}
+/* porte-folio*/
+.portfolio{
+    background-color: #eeeeee;
+    padding-bottom: 2%;
+    margin: auto;    
+}
+#portfolio{
+    
+    text-align: center;
+    padding-top: 5%;
+    
+}
+.portfolio .item-folio{
+    height: 280px;
+    background-color: #0FC2C0;
+    border: 1px solid black;
+    
+}
+span{
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 250px;
+    width: 250px;
+    box-shadow: 5px -3px teal;
+    margin: 20px
+}
+/* contact*/
+footer{
+    background-color: #023535;
+}
